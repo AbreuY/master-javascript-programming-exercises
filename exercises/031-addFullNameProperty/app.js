@@ -6,8 +6,8 @@ let person = {
 
 function addFullNameProperty(obj) {
   // tu codigo aqui
- person.fullName = person.firstName + " " + person.lastName;
- return person;
+ obj.fullName = obj.firstName + " " + obj.lastName;
+ return obj;
 }
 
 console.log(addFullNameProperty(person));
